@@ -37,4 +37,4 @@ else
   [ letters | _] = System.argv()
   WordHelp.CLI.main(letters)
 end
-
+exit(:shutdown)
